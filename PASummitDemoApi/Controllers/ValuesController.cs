@@ -10,13 +10,13 @@ namespace PASummitDemoApi.Controllers
 	public class ValuesController : ApiController
 	{
 		// GET api/values
-		public IEnumerable<string> Get()
+		public IEnumerable<string> GetItems()
 		{
 			return new string[] { "value1", "value2" };
 		}
 
 		// GET api/values/5
-		public string Get( int id )
+		public string GetItem( int id )
 		{
 			return "value";
 		}
